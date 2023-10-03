@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+
+body{
+    background: #E2CE1A;
+}
+
+
+main{
+
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    }
+
+        
+    .left{
+
+        width: 304px;
+        height: 555px;
+        align-items: center;
+        justify-content: center;
+        background-color: #36320A;
+        border-radius: 16px 0 0 16px;
+    
+    
+    
+    }
+    .card1{
+
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    .images{
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 148px 103px 3px 44px;
+
+    }
+
+    h1{
+        color: #FFFFFF;
+        width: 251px;
+        height: 56px;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0px 0px 0px 53px;
+        text-align: top;
+ 
+    }
+
+    h2{
+        color: #FFFFFF;
+        font-size: 23px;
+        font-weight: 400;
+        margin: 0px 36px 59px 53px;
+        text-align: top;
+    
+    }    
+
+    #b1{
+
+        background-color: #36320A;
+        border-color: #FFFFFF;
+        border-radius: 30px;
+        border: solid 4px;
+        color: #ffff;
+        font-size: 23px;
+        font-weight: 600;
+        height: 70px;
+        width: 232px;
+        cursor: pointer;
+        margin-bottom: 12px;
+    }
+
+    h3{
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 5px;
+              
+    
+    }  
+
+
+    .right{
+
+        width: 640px;
+        height: 555px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FEFAA1;
+        border-radius: 0 16px 16px 0;
+    }
+
+    .card2{
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+    h4{
+        border: 2px solid red;
+        color: #000000;
+        width: 296px;
+        height: 50px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        margin: 53px 176px 321px 168px
+
+    }
+
+    h5{
+
+        color: #000000;
+        font-size: 19px;
+        font-weight: 500;
+        
+
+
+    }
+        
+           
+    
