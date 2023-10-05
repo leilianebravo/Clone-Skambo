@@ -122,14 +122,15 @@ main{
     }
 
     h4{
-        border: 2px solid red;
         color: #000000;
         width: 296px;
         height: 50px;
-        text-align: center;
         font-size: 32px;
         font-weight: 800;
-        margin: 53px 176px 321px 168px
+        margin: 0px 172px 0px 168px;
+        text-align: top;
+        
+        
 
     }
 
@@ -138,10 +139,56 @@ main{
         color: #000000;
         font-size: 19px;
         font-weight: 500;
+        margin: 0px 206px 0px 210px;
+        text-align: top;
         
 
 
     }
+
+    .textfield{
+
+        border: 2px solid red;
+        display: flex;
+        width: 480px;
+        height: 60px;
+        color: #36320A;
+
+    }
+
+    ::placeholder{
+
+        width: 480px;
+        height: 60px;
+        color: #36320A;
+        font-size: 23px;
+        font-weight: 700;
+
+
+    }
+
+    input{
+
+        width: 480px;
+        height: 60px;
+        background: #E2CE1A;
+        border-radius: 16px;
+        border: none;
+        display: flex;
         
-           
-    
+    }
+
+    #b2{
+
+        background-color: #36320A;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 30px;
+        font-size: 23px;
+        font-weight: 600;
+        height: 70px;
+        width: 232px;
+        cursor: pointer;
+        margin-bottom: 12px;
+        
+    }
