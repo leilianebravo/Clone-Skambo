@@ -113,7 +113,6 @@ main{
     }
 
     .card2{
-        
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -121,38 +120,51 @@ main{
 
     }
 
+    .textos{
+        width: 296px;
+        height: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     h4{
+        
         color: #000000;
         width: 296px;
-        height: 50px;
+        height: 63px;
         font-size: 32px;
         font-weight: 800;
-        margin: 0px 172px 0px 168px;
-        text-align: top;
-        
-        
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -5px;
     }
 
     h5{
-
+        
+        width: 296px;
+        height: 36px;
         color: #000000;
         font-size: 19px;
         font-weight: 500;
-        margin: 0px 206px 0px 210px;
-        text-align: top;
-        
-
-
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .textfield{
 
-        border: 2px solid red;
         display: flex;
         width: 480px;
         height: 60px;
         color: #36320A;
+        position: relative;
+        margin-bottom: 24px;
+        align-items: center;
+        
 
     }
 
@@ -163,8 +175,12 @@ main{
         color: #36320A;
         font-size: 23px;
         font-weight: 700;
-
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        margin-top: -6px;
+        
     }
 
     input{
@@ -175,9 +191,47 @@ main{
         border-radius: 16px;
         border: none;
         display: flex;
+        padding-left: 50px;
+        outline: none;
+        color: #36320A;
+        font-size: 16px;
+        font-weight: 500;
+        box-shadow: 0px 4px 15px #36320A;
         
+        
+                
     }
 
+    .textfield #imagem{
+
+        margin-top: -7px;
+    }
+
+    .textfield #imagem2{
+
+        margin-top: -1px;
+    }
+
+    .textfield #imagem3{
+
+        margin-top: -7px;
+
+
+    }
+
+    .textfield img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        top: 35%;
+
+    }
+
+   
     #b2{
 
         background-color: #36320A;
@@ -189,6 +243,6 @@ main{
         height: 70px;
         width: 232px;
         cursor: pointer;
-        margin-bottom: 12px;
+        margin-top: 34px;
         
     }
